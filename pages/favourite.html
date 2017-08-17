@@ -1,0 +1,31 @@
+
+
+  <div id="foodList" ng-controller="foodListController" class="">
+      <div><h1>Select your favourite ingridients...</h1></div>
+
+          <input type="checkbox" id="CheckBox0" value="sundae"><label for="CheckBox0">Tomato</label></br>
+          <input type="checkbox" id="CheckBox1" value="tacos"><label for="CheckBox1">Onion</label></br>
+          <input type="checkbox" id="CheckBox2" value="tomato"><label for="CheckBox2">Meat</label></br>
+          <input type="checkbox" id="CheckBox3" value="meat"><label for="CheckBox3">Fish</label></br>
+          <input type="checkbox" id="CheckBox4" value="pizza"><label for="CheckBox4">Pizza</label></br>
+          <input type="checkbox" id="CheckBox5" value="lettuce"><label for="CheckBox5">Chicken</label></br>
+          <input type="checkbox" id="CheckBox6" value="chicken"><label for="CheckBox6">Chocolate</label></br>
+          <input type="checkbox" id="CheckBox7" value="chocolate"><label for="CheckBox7">Cheese</label></br>
+          <input type="checkbox" id="CheckBox8" value="crust"><label for="CheckBox8">Kebab</label></br>
+          <input type="checkbox" id="CheckBox9" value="cheese"><label for="CheckBox9">Salt</label></br>
+          <input type="checkbox" id="CheckBox10" value="kebab"><label for="CheckBox10">Corn</label></br>
+          <input type="checkbox" id="CheckBox11" value="barbecue"><label for="CheckBox11">Cream</label></br>
+          <input type="checkbox" id="CheckBox12" value="salt"><label for="CheckBox12">Ice Cream</label></br>
+          <input type="checkbox" id="CheckBox13" value="avacado"><label for="CheckBox13">Milk</label></br>
+          <input type="checkbox" id="CheckBox14" value="avacado"><label for="CheckBox14">Mushroom</label></br>
+          <input type="checkbox" id="CheckBox15" value="avacado"><label for="CheckBox15">Vegetables</label></br>
+
+        <div ng-click="new()" class="btn btn-danger col-md-12" >Submit</div>
+
+
+
+      <div class="name-box"><span class="dish-name">{{Name}}</span> </br>could probably be your favourite dish*</div>
+      <div >{{RestoName}} This is where you can find it !!</div>
+    </div>
+    <div ng-hide={{Name}}>Try selecting relevent elements</div>
+    </div>
